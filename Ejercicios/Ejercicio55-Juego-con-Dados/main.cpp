@@ -18,6 +18,8 @@ int main(int argc, char const *argv[])
     dado2 = rand() % 6 + 1;
     cout << "Dado 2: " << dado2 << endl;
 
+    cout <<endl;
+
     resultado = dado1 + dado2;
     cout << "El resultado es: " << resultado;
 
